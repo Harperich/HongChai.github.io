@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto-flex: "Roboto Flex";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-gray-100: #242424;
+  --color-lightgray: #ccc;
+  --color-white: #fff;
+  --color-yellowgreen-100: #94d422;
+}

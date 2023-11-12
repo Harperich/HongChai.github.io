@@ -1,0 +1,446 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header1,
+.shadow {
+    position: absolute;
+    width: 399px;
+}
+
+.shadow {
+    top: 58px;
+    left: 0;
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 28px rgba(0, 0, 0, 0.25);
+    height: 25px;
+}
+
+.header1 {
+    top: 76px;
+    left: 399px;
+    background-color: var(--color-gray-100);
+    height: 76px;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    right: 340px;
+    top: 28px;
+    z-index: 666;
+    transform: rotate(180deg);
+}
+
+.img2 {
+    position: absolute;
+    right: 290px;
+    top: 28px;
+    z-index: 666;
+    transform: rotate(180deg);
+}
+
+.logo-icon {
+    position: absolute;
+    top: 12px;
+    left: 74.11px;
+    width: 115.74px;
+    height: 52px;
+    object-fit: cover;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 399px;
+    height: 83px;
+}
+
+.dcr9fhoaqitzqpllfplb-10-3dd32e-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 393px;
+    height: 253.31px;
+    object-fit: cover;
+}
+
+.dcr9fhoaqitzqpllfplb-10-3dd32e-wrapper,
+.main-child {
+    position: absolute;
+    top: 85.49px;
+    left: 0;
+    width: 393px;
+    height: 253.31px;
+}
+
+.main-child {
+    top: 271px;
+    left: 15px;
+    background-color: rgba(33, 32, 38, 0.77);
+    width: 357px;
+    height: 45px;
+}
+
+.img3 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.the-bluebirds {
+    top: 279px;
+    left: 20px;
+    font-size: var(--font-size-base);
+    text-align: center;
+    width: 133px;
+    height: 29px;
+}
+
+.gara-band,
+.mangsa,
+.mangsa1,
+.the-bluebirds {
+    position: absolute;
+    display: inline-block;
+}
+
+.mangsa {
+    top: 294px;
+    left: 35px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-lightgray);
+    width: 148px;
+    height: 30px;
+}
+
+.gara-band,
+.mangsa1 {
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 15px;
+}
+
+.mangsa1 {
+    top: 12px;
+    font-weight: 300;
+    color: var(--color-lightgray);
+    width: 73px;
+}
+
+.alto-parent,
+.funky-doryz-parent,
+.gara-band-parent {
+    position: absolute;
+    top: 520px;
+    left: 15px;
+    width: 80px;
+    height: 27px;
+}
+
+.alto-parent,
+.funky-doryz-parent {
+    left: 110px;
+}
+
+.alto-parent {
+    left: 205px;
+}
+
+.kluk-kluk-adventure,
+.mangsa4 {
+    position: absolute;
+    top: 675px;
+    left: 15px;
+    display: inline-block;
+    width: 80px;
+    height: 15px;
+}
+
+.mangsa4 {
+    top: 702px;
+    font-weight: 300;
+    color: var(--color-lightgray);
+    width: 73px;
+}
+
+.the-bluebirds-container,
+.the-bluebirds-group,
+.the-bluebirds-parent {
+    position: absolute;
+    top: 675px;
+    left: 111px;
+    width: 80px;
+    height: 27px;
+}
+
+.the-bluebirds-container,
+.the-bluebirds-group {
+    left: 205px;
+}
+
+.the-bluebirds-container {
+    left: 300px;
+}
+
+.octiconthree-bars-16 {
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+
+/* .vector-icon,
+.vector-icon1,
+.vector-icon2 {
+    position: absolute;
+    height: 2.35%;
+    width: 5.09%;
+    top: 3.17%;
+    right: 9.92%;
+    bottom: 94.48%;
+    left: 84.99%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+} */
+
+
+/* .vector-icon1,
+  .vector-icon2 {
+      height: 2.34%;
+      right: 22.39%;
+      bottom: 94.49%;
+      left: 72.52%;
+  } */
+
+
+/*
+.vector-icon2 {
+    height: 2.86%;
+    top: 33.1%;
+    right: 11.2%;
+    bottom: 64.04%;
+    left: 83.72%;
+} */
+
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(147, 216, 15, 0.9);
+    width: 155px;
+    height: 24px;
+}
+
+.featured-release {
+    position: absolute;
+    top: 5px;
+    left: 11.37px;
+    display: inline-block;
+    width: 133.3px;
+    height: 14px;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.rectangle-parent {
+    position: absolute;
+    top: 247px;
+    left: 15px;
+    width: 155px;
+    height: 24px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.op7see56yfsqxgmapfj6-18-93a06e-icon,
+.wesqaaungt9vhusbto6g-15-7aff1d-icon {
+    position: absolute;
+    top: 432px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.op7see56yfsqxgmapfj6-18-93a06e-icon {
+    left: 110px;
+}
+
+.nnvxvb4cdcev2mtvnyfl-04-a7b560-icon,
+.ozdprh5h95ttgs9zwqqm-18-4419af-icon {
+    position: absolute;
+    top: 432px;
+    left: 300px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.nnvxvb4cdcev2mtvnyfl-04-a7b560-icon {
+    left: 205px;
+}
+
+.cjxnoxo3vawjyqtsb6sr-13-29e5a5-icon,
+.vv3g9orzdasd536r6wgy-04-74105a-icon {
+    position: absolute;
+    top: 585px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.cjxnoxo3vawjyqtsb6sr-13-29e5a5-icon {
+    top: 583px;
+    left: 110px;
+}
+
+.vshm9yhelgmoykhzj1lh-21-35a81f-icon,
+.xho9xqsufheoaegfqej6-10-84ca32-icon {
+    position: absolute;
+    top: 585px;
+    left: 205px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.vshm9yhelgmoykhzj1lh-21-35a81f-icon {
+    left: 300px;
+}
+
+.main-inner,
+.main-item {
+    position: absolute;
+    top: 371.5px;
+    left: -34.5px;
+    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.9);
+    border-top: 63px solid var(--color-yellowgreen-100);
+    box-sizing: border-box;
+    width: 456px;
+    height: 63px;
+    mix-blend-mode: darken;
+}
+
+.main-inner {
+    top: 786.5px;
+    left: -31.5px;
+    box-shadow: 0-6px 13px rgba(0, 0, 0, 0.9);
+}
+
+.new-releases {
+    position: absolute;
+    top: 363px;
+    left: 33px;
+    font-size: var(--font-size-base);
+    display: flex;
+    color: #89c711;
+    align-items: center;
+    width: 133px;
+    height: 29px;
+}
+
+.rectangle-div {
+    position: absolute;
+    top: 369px;
+    left: 15px;
+    background-color: rgba(255, 168, 0, 0.9);
+    width: 7px;
+    height: 16px;
+}
+
+.mangsa8 {
+    position: absolute;
+    top: 27px;
+    left: 0;
+    font-weight: 300;
+    color: var(--color-lightgray);
+    display: inline-block;
+    width: 73px;
+    height: 15px;
+}
+
+.friday-king-road-parent {
+    position: absolute;
+    top: 520px;
+    left: 300px;
+    width: 80px;
+    height: 42px;
+}
+
+.main {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 852px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-white);
+    font-family: var(--font-roboto-flex);
+}
+
+.main1 {
+    background-color: #141414;
+    height: 852px;
+    width: 430px;
+}
+.search{
+    z-index: 999;
+    width: 399px;
+    position: absolute;
+    /* left: 9px; */
+    background-color: #8b8b8b;  
+    padding: 20px 44px;
+    box-sizing: border-box;
+    top: -260px;
+}
+.search_content{
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 33px;
+    color:var(--color-gray-100);
+    padding-left: 20px;
+   
+}
+.mine{
+    /* background-color: transparent; */
+    /* background-color: #fff; */
+    /* background: transparent; */
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 231px;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    padding-top: 20%;
+    display: none;
+    background-color: #242424;  
+}
+.mine img{
+    width: 50px;
+    height: 50px;
+}
+.name{
+    color: #fff;
+    margin-top: 10px;
+}
+.cloase{
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:#fff;
+}

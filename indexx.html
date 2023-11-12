@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Flex:wght@300;700&display=swap" />
+</head>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.11/dist/gsap.min.js"></script>
+
+<body>
+    <div class="main">
+        <div class="main2">
+            <img class="logo" src="./image/Logo.png" alt="">
+        </div>
+        <div class="main1" style="display: none;">
+            <!-- 我的侧边栏内容框 -->
+            <div class="mine">
+                <div><img src="./image/my.png" alt=""></div>
+                <div class="name">@RayRay</div>
+                <div class="name">Raymond</div>
+                <div class="cloase">X</div>
+            </div>
+            <div class="header">
+                <!-- 菜单内容框 -->
+                <div class="drw">
+
+                </div>
+                <!-- 搜索内容框 -->
+                <div class="search">
+                    <div class="search_content">Search</div>
+                </div>
+                <div class="shadow"></div>
+                <div class="header1">
+                    <img class="vector-icon img1" alt="" src="image/search.png" />
+                    <img class="vector-icon1 img2" alt="" src="image/my.png" />
+                </div>
+                <img class="logo-icon" alt="" src="image/Logo.png" />
+            </div>
+            <div class="dcr9fhoaqitzqpllfplb-10-3dd32e-wrapper">
+                <img class="dcr9fhoaqitzqpllfplb-10-3dd32e-icon" alt="" src="image/main-image.jpg" />
+            </div>
+            <div id="main-child" class="main-child">
+
+                <img class="vector-icon2 img3" alt="" src="image/button.png" id="play-button"
+                    onclick="playFeatured()" />
+
+            </div>
+            <b class="the-bluebirds">The Bluebirds</b>
+            <div id="mangsa" class="mangsa">Mangsa</div>
+            <div class="gara-band-parent">
+                <b class="gara-band">GARA Band</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <div class="funky-doryz-parent">
+                <b class="gara-band">Funky Doryz</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <div class="alto-parent">
+                <b class="gara-band">Alto</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <b class="kluk-kluk-adventure">Kluk Kluk Adventure</b>
+            <div class="mangsa4">Mangsa</div>
+            <div class="the-bluebirds-parent">
+                <b class="gara-band">The Bluebirds</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <div class="the-bluebirds-group">
+                <b class="gara-band">The Bluebirds</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <div class="the-bluebirds-container">
+                <b class="gara-band">The Bluebirds</b>
+                <div class="mangsa1">Mangsa</div>
+            </div>
+            <img class="octiconthree-bars-16" alt="" src="image/menu.png" />
+            <div class="rectangle-parent">
+                <div class="group-child"></div>
+                <b class="featured-release">FEATURED RELEASE</b>
+            </div>
+            <img class="wesqaaungt9vhusbto6g-15-7aff1d-icon" alt="" src="image/image1.jpg" /><img
+                class="op7see56yfsqxgmapfj6-18-93a06e-icon" alt="" src="image/image2.jpg" /><img
+                class="ozdprh5h95ttgs9zwqqm-18-4419af-icon" alt="" src="image/image3.jpg" /><img
+                class="nnvxvb4cdcev2mtvnyfl-04-a7b560-icon" alt="" src="image/image4.jpg" /><img
+                class="vv3g9orzdasd536r6wgy-04-74105a-icon" alt="" src="image/image5.jpg" /><img
+                class="cjxnoxo3vawjyqtsb6sr-13-29e5a5-icon" alt="" src="image/image6.jpg" /><img
+                class="xho9xqsufheoaegfqej6-10-84ca32-icon" alt="" src="image/image7.jpg" /><img
+                class="vshm9yhelgmoykhzj1lh-21-35a81f-icon" alt="" src="image/image8.jpg" />
+            <div class="main-item"></div>
+            <div class="main-inner"></div>
+            <b class="new-releases">New Releases</b>
+            <div class="rectangle-div"></div>
+            <div class="friday-king-road-parent">
+                <b class="gara-band">Friday King Road</b>
+                <div class="mangsa8">Mangsa</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function playFeatured() {
+            document.getElementById("mangsa").innerHTML = "Mangsa-(Now Playing)";
+
+            document.getElementById("main-child").innerHTML = ' <img src="image/stop button.png" style="height:25px;width:25px;" class="vector-icon2 img3" alt="" onClick="stopFeatured()"/>';
+
+            document.getElementById("main-child").style.backgroundColor = "rgba(255,0,0,.7)";
+            var image = document.getElementsByClassName('dcr9fhoaqitzqpllfplb-10-3dd32e-icon')[0]
+            image.style.transform = 'scale(1.1)'
+        }
+        function stopFeatured() {
+            document.getElementById("mangsa").innerHTML = "Mangsa";
+            document.getElementById("main-child").innerHTML = '<img  class="vector-icon2 img3" alt="" src="image/button.png" id="play-button" onclick="playFeatured()" />';
+            document.getElementById("main-child").style.backgroundColor = "#242424";
+            var image = document.getElementsByClassName('dcr9fhoaqitzqpllfplb-10-3dd32e-icon')[0]
+            image.style.transform = 'scale(1)'
+        }
+
+        document.querySelector('.vector-icon1').onmouseenter = function () {
+            gsap.to('.vector-icon1', { y: 5 })
+        }
+        document.querySelector('.vector-icon1').onmouseleave = function () {
+            gsap.to('.vector-icon1', { y: 0 })
+        }
+        document.querySelector('.vector-icon').onmouseenter = function () {
+            gsap.to('.vector-icon', { y: 5 })
+        }
+        document.querySelector('.vector-icon').onmouseleave = function () {
+            gsap.to('.vector-icon', { y: 0 })
+        }
+        document.querySelector('.dcr9fhoaqitzqpllfplb-10-3dd32e-icon').onmouseenter = function () {
+            let part1 = "";
+            part1 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".dcr9fhoaqitzqpllfplb-10-3dd32e-icon",
+                    start: `bottom 60%`,
+                    end: `bottom 40%`,
+                    scrub: true,
+                    markets: true,
+                    onEnter: ({ progress, direction, isActive }) => {
+                        $(".section-desc").removeClass("opacity-0");
+                    }
+                }
+            });
+            part1.fromTo(".dcr9fhoaqitzqpllfplb-10-3dd32e-icon", { scale: 1, opacity: 0 }, { scale: 1.2, opacity: 1 })
+        }
+        document.querySelector('.dcr9fhoaqitzqpllfplb-10-3dd32e-icon').onmouseleave = function () {
+            let part1 = "";
+            part1 = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".dcr9fhoaqitzqpllfplb-10-3dd32e-icon",
+                    start: `bottom 60%`,
+                    end: `bottom 40%`,
+                    scrub: true,
+                    markets: true,
+
+                }
+            });
+            part1.fromTo(".dcr9fhoaqitzqpllfplb-10-3dd32e-icon", { scale: 1.2, opacity: 0 }, { scale: 1, opacity: 1 })
+        }
+
+        var anims = function () {
+            let part = "";
+            part = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".logo",
+                    start: `bottom 60%`,
+                    end: `bottom 40%`,
+                    scrub: true,
+                    markets: true,
+
+                }
+            });
+            part.fromTo(".logo", { scale: 0.5, opacity: 0 }, { scale: 1, opacity: 1 })
+            part.fromTo(".logo", { scale: 1, opacity: 0 }, { scale: 0.5, opacity: 1 })
+        }
+
+        let time = setInterval(() => {
+            anims()
+        }, 1000);
+        setTimeout(() => {
+            document.querySelector('.main1').style.display = 'block'
+            document.querySelector('.main2').style.display = 'none'
+            clearInterval(time)
+
+        }, 2000);
+        // logo图加载
+        var isshow = false
+        document.querySelector('.octiconthree-bars-16').onclick = function () {
+            if (!isshow) {
+                gsap.to('.drw', { duration: 1, y: 240 })
+                isshow = true
+            } else {
+                gsap.to('.drw', { duration: 1, y: -300 })
+                isshow = false
+            }
+
+        }
+
+        // 从左到右动画效果函数
+        var leftToRight = function (calssName) {
+            document.querySelector(calssName).style.display = 'none'
+            setTimeout(() => {
+                document.querySelector(calssName).style.display = 'block'
+                let bannerGs = "";
+                bannerGs = gsap.timeline({
+                    scrollTrigger: {
+                        trigger: calssName,
+                        start: `bottom 60%`,
+                        end: `bottom 40%`,
+                        scrub: true,
+                        markets: true,
+                    }
+                });
+                bannerGs.fromTo(calssName, { duration: 1, x: -540 }, { duration: 1, x: 0 })
+            }, 2000);
+        }
+        //   main-child 动画效果
+        leftToRight('.main-child')
+        // FEATURED RELEASE动画效果
+        leftToRight('.rectangle-parent')
+        leftToRight('.the-bluebirds')
+        leftToRight('#mangsa')
+
+        var searchShow = false
+
+        //    搜索点击事件
+        document.querySelector('.vector-icon').onclick = function () {
+            if (!searchShow) {
+                gsap.to('.search', { duration: 1, y: 340 })
+                searchShow = true
+            } else {
+                gsap.to('.search', { duration: 1, y: -300 })
+                searchShow = false
+            }
+
+        }
+        // 我的图标 点击事件
+        var mineShow = gsap.from(".mine", { x: 100, duration: 1, ease: "power2.out" })
+        document.querySelector('.vector-icon1').onclick = function (e) {
+            e.preventDefault()
+            document.querySelector(".mine").style.display = "block";
+            mineShow.restart()
+        }
+        // 我的侧边栏关闭
+        document.querySelector('.cloase').onclick = function(){
+            mineShow.reverse()
+            gsap.to('.mine', { duration: 1, display:'none'})
+
+        }
+       
+    </script>
+
+
+
+</body>
+<style>
+    .drw {
+        z-index: 999;
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: -160px;
+        /* left: 9px; */
+        background-color: var(--color-gray-100);
+        /* display: none; */
+    }
+
+    .main2 {
+        width: 399px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c1c1c;
+    }
+
+    .logo {
+        width: 80%;
+
+    }
+</style>
+
+</html>
